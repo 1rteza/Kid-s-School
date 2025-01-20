@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* shared styles */
+
+  .display-flex{
+    display: flex;
+  }
+  .margin{
+    margin: 26px 142px;
+  }
+  .hide{
+    display: none;
+  }
+
+
+  /* header section */
+
+  .nav-bar{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .school{
+    gap: 11px;
+    align-items: center;
+  }
+  .school >img{
+    width: 62px;
+    height: 62px;
+  }
+  .school h3{
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .menu ul{
+    gap: 32px;
+  }
+  .menu-bars{
+    display: none;
+  }
+  ul li{
+    list-style: none;
+  }
+  ul li a{
+    text-decoration: none;
+  }
+  .home{
+    color: rgb(254, 163, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .about{
+    color: rgb(1, 172, 253);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .facilities{
+    color: rgb(5, 212, 223);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .admission{
+    color: rgb(93, 88, 239);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .nav-bar > button{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background: rgb(254, 163, 1);
+    cursor: pointer;
+  }
+
+  .banner{
+    gap: 72px;
+  }
+  .banner-title{
+    margin-top: 140px;
+    max-width: 640px;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 61px;
+  }
+  .empowering{
+    color: rgb(254, 163, 1);
+  }
+  .towards{
+    color: rgb(1, 172, 253);
+  }
+  .banner-description{
+    max-width: 640px;
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .banner-btn{
+    color: white;
+    font-size: 20px;
+    width: 197px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+  }
+  .banner-img{
+    margin-bottom: 0;
+  }
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+  /* media query for smaller devices */
+
+  @media screen and (max-width: 576px) {
+    .school > h3, .menu, .nav-bar > button{
+        display: none;
+    }
+    .header{
+        margin: 10px;
+    }
+    .nav-bar{
+        margin: 0 auto;
+        max-width: 390px;
+        padding-bottom: 12px;
+        /* border-bottom: 2px solid orange; */
+    }
+    .menu-bars{
+        display: inline;
+        width: 30px;
+        height: 30px;
+    }
+    .banner{
+        margin: 0 auto;
+        flex-direction: column-reverse;
+    }
+    .banner-img > img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .banner-content{
+        margin-top: -162px;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .banner-description{
+        font-size: 14px;
+        line-height: 18px;
+    }
+  }
