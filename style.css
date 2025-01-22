@@ -33,6 +33,9 @@ body{
 
   /* header section */
 
+  marquee{
+    color: white;
+  }
   .nav-bar{
     justify-content: space-between;
     align-items: center;
@@ -41,7 +44,7 @@ body{
     gap: 11px;
     align-items: center;
   }
-  .school >img{
+  .school > img{
     width: 62px;
     height: 62px;
   }
@@ -244,7 +247,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    width: 1475px;
+    width: 1518px;
     height: 1018.02px;
   }
   .stories-title{
@@ -356,9 +359,83 @@ body{
     margin-top: 88px;
   }
 
+  .footer{
+    align-items: center;
+    width: 1239px;
+    height: 317px;
+    padding: 123px 140px;
+    background: rgb(1, 172, 253);
+  }
 
 
+  .footer > .bag2{
+    filter: drop-shadow(2px 4px 20px rgb(231, 48, 48));
+  }
+  .kids-part{
+    margin-right: 170px;
+  }
+  .kids-part .kids-title{
+    width: 206.11px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 40.14px;
+    font-weight: 700;
+    line-height: 38.51px;
+  }
+  .kids-description{
+    width: 399.02px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .about-part{
+    margin-top: 15px;
+    margin-right: 140px;
+  }
+  .about-part .about-title{
+    width: 156.36px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .about-part .about-menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-part .about-menu ul li a{
+    margin-left: -38px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+  }
 
+  .socials-part{
+    margin-top: -125px;
+    margin-left: 100px;
+  }
+  .socials-title{
+    width: 177.12px;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+  .socials-box{
+    flex-direction: row;
+    gap: 10px;
+  }
 
 
 
@@ -369,7 +446,8 @@ body{
         display: none;
     }
     .header{
-        margin: 10px;
+      width: 414px;
+      margin: 10px;
     }
     .nav-bar{
         margin: 0 auto;
