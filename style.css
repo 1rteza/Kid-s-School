@@ -551,6 +551,22 @@ body{
   .stories-btn{
     margin-top: 40px;
   }
-
+  .footer{
+    flex-direction: column;
+    width: 169px;
+    height: 600px;
+    text-align: left;
+  }
+  .kids-part{
+    margin-right: 0;
+  }
+  .about-part{
+    margin-left: -100px;
+  }
+  .socials-part{
+    margin-left: -197px;
+    margin-top: -7px;
+  }
+  
 
   }
